@@ -1,0 +1,62 @@
+{
+  "n_windows": 50513,
+  "mode_counts": {
+    "Idle": 34097,
+    "Start/stop cycling": 13360,
+    "Sustained high load": 3056
+  },
+  "mode_share_percent": {
+    "Idle": 67.5,
+    "Start/stop cycling": 26.45,
+    "Sustained high load": 6.05
+  },
+  "high_load_share_percent": 6.05,
+  "n_failures": 992,
+  "base_failure_rate": 0.019639,
+  "failures_in_high_load": 985,
+  "recall_high_load": 0.9929,
+  "precision_high_load": 0.3223,
+  "lift_over_base": 16.41,
+  "failure_events": [
+    {
+      "label": "Failure 1 (Apr 18)",
+      "start": "2020-04-18 00:00:00",
+      "end": "2020-04-18 23:59:00",
+      "windows_overlapping": 287,
+      "failure_windows": 287,
+      "failure_windows_in_high_load": 283
+    },
+    {
+      "label": "Failure 2 (May 29-30)",
+      "start": "2020-05-29 23:30:00",
+      "end": "2020-05-30 06:00:00",
+      "windows_overlapping": 78,
+      "failure_windows": 78,
+      "failure_windows_in_high_load": 77
+    },
+    {
+      "label": "Failure 3 (Jun 5-7)",
+      "start": "2020-06-05 10:00:00",
+      "end": "2020-06-07 14:30:00",
+      "windows_overlapping": 573,
+      "failure_windows": 573,
+      "failure_windows_in_high_load": 573
+    },
+    {
+      "label": "Failure 4 (Jul 15)",
+      "start": "2020-07-15 14:30:00",
+      "end": "2020-07-15 19:00:00",
+      "windows_overlapping": 54,
+      "failure_windows": 54,
+      "failure_windows_in_high_load": 52
+    }
+  ],
+  "silhouette_k2_to_k6": {
+    "2": 0.4086,
+    "3": 0.4289,
+    "4": 0.3376,
+    "5": 0.3442,
+    "6": 0.3358
+  },
+  "n_features": 36
+}

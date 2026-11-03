@@ -1,0 +1,18 @@
+# Raw / large derived data (do not commit; regenerate from source or re-download)
+data/raw/
+data/processed/metropt3_cleaned.parquet
+data/processed/metropt3_windows_with_clusters.csv
+
+# Power BI
+*.pbix
+powerbi/metropt3_dashboard.pbix
+
+# Caches and environments
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+env/
+*.py[cod]
+*.pyo
+.DS_Store
